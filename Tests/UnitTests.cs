@@ -63,8 +63,7 @@ namespace GithubActionsLab
         public void Mul_Valid_Bui()
         {
             Assert.AreEqual(9, Program.Multiply("3", "3"));
-            //Wrong test case
-            Assert.AreEqual(18, Program.Multiply("5", "3"));
+            Assert.AreEqual(15, Program.Multiply("5", "3"));
             Assert.AreEqual(40, Program.Multiply("5", "8"));
         }
 
