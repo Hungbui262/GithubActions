@@ -12,7 +12,7 @@ namespace GithubActionsLab
             {
                 try
                 {
-                    //comment
+                  // comment 2 remove comment 1
                     Func<string, string, double> operation = null;
                     Console.WriteLine("1) Add (x+y)");
                     Console.WriteLine("2) Subtract (x-y)");
